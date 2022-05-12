@@ -1,0 +1,144 @@
+{
+  "to": 10,
+  "from": 1,
+  "page": 1,
+  "per_page": 10,
+  "current_page": 1,
+  "last_page": 4,
+  "has_next_page": false,
+  "total_records": 10,
+  "total_records_with_filter": 10,
+  "columns": [
+    {
+      "label": "İşlem Tarihi",
+      "searchable": true,
+      "sortable": true,
+      "truncatable": false,
+      "filter": null,
+      "key": "created_at"
+    },
+    {
+      "label": "IP",
+      "searchable": true,
+      "sortable": false,
+      "truncatable": false,
+      "filter": null,
+      "key": "ip"
+    },
+    {
+      "label": "İşlem Durumu",
+      "searchable": false,
+      "sortable": true,
+      "truncatable": false,
+      "filter": [
+        {
+          "key": 1,
+          "value": "Başarılı Giriş"
+        },
+        {
+          "key": 2,
+          "value": "Başarılı Çıkış"
+        },
+        {
+          "key": 3,
+          "value": "Hatalı Token"
+        },
+        {
+          "key": 4,
+          "value": "Bilinmeyen Kullanıcı"
+        },
+        {
+          "key": 5,
+          "value": "2 FA doğrulaması Başarısız"
+        },
+        {
+          "key": 6,
+          "value": "2 FA doğrulaması Başarılı"
+        }
+      ],
+      "key": "auth_log_type"
+    }
+  ],
+  "data": [
+    {
+      "created_at": "2022-03-24T07:08:53.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-24T13:53:13.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-25T06:29:59.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:06:19.000000Z",
+      "ip": "192.168.1.72",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:06:20.000000Z",
+      "ip": "192.168.1.72",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:07:22.000000Z",
+      "ip": "192.168.1.72",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:08:50.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:12:20.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-28T07:36:01.000000Z",
+      "ip": "192.168.1.72",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    },
+    {
+      "created_at": "2022-03-29T13:55:46.000000Z",
+      "ip": "127.0.0.1",
+      "auth_log_type": {
+        "id": 1,
+        "name": "Başarılı Giriş"
+      }
+    }
+  ]
+}
